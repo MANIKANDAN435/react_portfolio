@@ -10,7 +10,6 @@ const Header = () => {
                 <ul className='flex  text-white'>
                     <li><a href="/">Home</a></li>
                     <li><a href="#About">About</a></li>
-                    <li><a href="#Projects">Projects</a></li>
                     <li><a href="#Resume">Resume</a></li>
                     <li><a href="#Contact">Contact</a></li>
                 </ul>
@@ -23,7 +22,6 @@ const Header = () => {
                     <ul onClick={()=>setToggle(!toggle)} className='flex flex-col   text-white mob-nav'>
                         <li><a href="/">Home</a></li>
                         <li><a href="#About">About</a></li>
-                        <li><a href="#Projects">Projects</a></li>
                         <li><a href="#Resume">Resume</a></li>
                         <li><a href="#Contact">Contact</a></li>
                     </ul>
